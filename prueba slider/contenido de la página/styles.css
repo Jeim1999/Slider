@@ -1,0 +1,247 @@
+body{
+    background-color: lightgrey;
+    font-family: sans-serif;
+  }
+  
+  .container{
+    margin: auto;
+    background-color: white;
+    width: 800px;
+    padding: 30px;
+  }
+  .logo{
+      height: 10px;
+      position: static;
+      margin-bottom: 50px;
+  }
+  .logotipo{
+      width: 70px;
+      display: inline-block;
+  }
+  .name_pag{
+      font-size: 40px;
+      position: relative;
+      top: -40px;
+      right: -75px;
+  }
+  .navegador{
+      position: relative;
+      top: -70px;
+      right: -480px;
+      color: lightskyblue;
+  }
+  .inicio{
+    position: relative;
+    left: -60px;
+  }
+  .about_us{
+    position: relative;
+    left: -40px;
+  }
+  .products{
+    position: relative;
+    left: -20px;
+  }
+  .Línea{
+    position: relative;
+    left: -480px;
+    top: 20px;
+
+  }
+  .container_2{
+      background-color: rgb(204, 204, 204);
+  }
+  
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  ul.slider{
+    position: relative;
+    width: 800px;
+    height: 300px;
+  }
+  
+  ul.slider li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity .5s;
+      background:black;
+  }
+  
+  ul.slider li img{
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+  }
+  
+  ul.slider li:first-child {
+      opacity: 1; /*Mostramos el primer <li>*/
+  }
+  
+  ul.slider li:target {
+      opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+  }
+  
+  .menu{
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .menu li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+  }
+  .Derechos{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .montaña,.Flor_orquidea{
+    width: 200px;
+    position: relative;
+    right: -100px;
+  }
+  .sobre_nosotros__título{
+    position: relative;
+    right: -300px;
+  }
+  .sobre_nosotros__párrafo{
+    display: inline-block;
+    position: relative;
+    width: 400px;
+    right: -150px;
+    top: -40px;
+  }
+  .Misión__título{
+    position: relative;
+    right: -300px;
+  }
+  .Misión__párrafo{
+    display: inline-block;
+    position: relative;
+    width: 400px;
+    right: 150px;
+    top: -40px;
+  }
+  .visión__título{
+    position: relative;
+    right: -300px;
+  }
+  .visión__párrafo{
+    display: inline-block;
+    position: relative;
+    width: 400px;
+    right: -150px;
+    top: -40px;
+  }
+  .new_york{
+    width: 200px;
+    position: relative;
+    right: -550px;
+  }
+  .Misión{
+    background: lightslategray;
+  }
+  .sobre_nosotros{
+    background: lightslategray;
+  }
+  .visión{
+    background: lightslategray;
+  }
+.formulario__nombre ,.formulario__apellido{
+  display: inline-block;
+  position: relative;
+  margin: 20px 20px;
+}
+.formulario__texto--genero{
+  display: inline-block;
+  position: relative;
+  margin: 10px 10px;
+}
+.formulario__genero{
+  margin: 10px;
+}
+.formulario__texto--solicitud{
+  display: inline-block;
+  position: relative;
+  top: -90px;
+  right: -20px;
+}
+.formulario__tipo_de_consulta{
+  display: inline-block;
+  position: relative;
+  top: -66px;
+  right: -250px;
+}
+.formulario__texto--tipo_de_consulta{
+  margin-bottom: 20px;
+}
+.formulario__space--solicitud{
+  display: inline-block;
+  position: relative;
+  right: 40px;
+}
+.ubicación{
+  display: inline-block;
+  position: relative;
+  top: -300px;
+  right: -470px;
+  width: 5px;
+}
+.enviar{
+  width: 80px;
+  display: inline-block;
+  position: relative;
+  top: -270px;
+  right: -200px;
+}
+.título__productos{
+  position: relative;
+  right: -330px;
+  top: -10px;
+}
+.producto-1{
+  background: lightgrey;
+  display: inline-block;
+  width: 400px;
+  position: relative;
+  left: -20px;
+  height: 250px;
+  top: -22px;
+}
+.producto-1__imagen-manzana{
+  width: 200px;
+  margin:17px 8px;
+}
+.producto-1__contenido{
+  background: lightgrey;
+  display: inline-block;
+  width: 220px;
+  position: relative;
+  left: -230px;
+  height: 250px;
+  top: -23px;
+}
+.producto-2{
+  display:inline-block;
+  position: relative;
+  top: -250px;
+  right: -430px;
+}

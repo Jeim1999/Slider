@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>contacto</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+
+            <img class="logotipo" src="../img/corazón_azul.jpeg" alt="corazón azúl">
+        </div>
+        <h1 class="name_pag">Jeimymall</h1>
+        <nav class="navegador">
+         <div>
+            <a class="inicio" href="index.html">inicio</a>
+            <a class="about_us" href="sobre-nosotros.html">sobre nosotros</a>
+            <a class="products" href="productos.html">productos</a>
+            <a class="contact_us" href="contacto.html">contáctanos</a>
+         </div>
+          <div class="Línea"> 
+           <hr>
+          </div>
+        </nav>
+        <form class="formulario">
+            <fieldset>
+                <legend class="formulario__texto--contactanos">Contáctanos</legend>
+                <section class="formulario__nombre">
+                <div class="formulario__texto--nombre"><label>Nombre</label></div>
+                <input class="formulario__space--nombre" type="text" name="nombre" value="">
+                 </section>
+                 <section class="formulario__apellido">
+                <div class="formulario__texto--apellido"><label>Apellido</label> </div> 
+                <input class="formulario__space--apellido" type="text" name="apellidos" value="">
+                </section> 
+                <section class="formulario__genero">
+                <div><label class="formulario__texto--genero">Género</label></div>
+                    <input type="radio" name="sexo" value="hombre"> Hombre
+                    <input type="radio" name="sexo" value="mujer" checked="checked"> Mujer
+                    <input type="radio" name="sexo" value="otro"> otro 
+                </section> 
+                <section class="formulario__tipo_de_consulta">
+                    <div class="formulario__texto--tipo_de_consulta"><label for="type of query">Tipo de consulta</label></div>
+                        <div><select name="type of query">
+                            <optgroup>
+                                <option value="claim">reclamo</option>
+                                <option value="suggestion">sugerencia</option>
+                                <option value="question">pregunta</option>
+                                <option value="help">ayuda</option>
+                            </optgroup>
+                        </div></select> 
+                    </section>
+                <section class="formulario__solicitud">
+                    <div class="formulario__texto--solicitud"><label for="request">Solicitud</label></div>  
+                    <div class="formulario__space--solicitud"><textarea name="request" cols="50" rows="5"></textarea></div>
+                </section>
+                <section class="ubicación">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254.38400420116457!2d-66.81708539821079!3d10.49302418009632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb29474e8e4ba69b1!2sPanader%C3%ADa%20Biscotti!5e0!3m2!1ses-419!2sve!4v1619617800163!5m2!1ses-419!2sve" width="300" height="300" style="border:0;"  loading="lazy"></iframe>
+                </section>
+                <input class="enviar" type="submit" value="Enviar">
+                
+            </fieldset>
+        </form>
+        
+        <div class="Derechos">
+            <p>Jeimy Maldonado</p>
+            <p>27643836</p>
+          </div>
+    
+</body>
+</html>
